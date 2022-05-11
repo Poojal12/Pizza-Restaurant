@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Document</title>
+</head>
+ <style>
+  .body 
+  {
+        padding: 0px;
+        margin: 0px;
+        
+    }
+  
+.header form{
+   border: 2px solid black; 
+   padding: 20px;
+   background-image: url(p.jpg);
+   background-position: center;
+   margin-top: 25px;
+     display: inline-block;
+   font-size: 20px;
+   color:black;
+}
+.header form label
+{
+  background-color: rgb(247, 199, 227);
+}
+form input{
+    width: 450px;
+    height: 60px;
+    
+}
+
+input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=Email]{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+   
+      input[type=submit] {
+        background-color: rgb(69, 69, 185);
+        color: white;
+        padding: 12px 22px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+         
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        height: 500px;
+        background-image: url(p1.jpg);
+      } 
+</style> 
+<body>
+      
+     
+		<div class="header form">
+			<div id="box">
+			<form>
+				<table>
+					<tr>
+						<td>
+							<label><b>Name:</b></label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter your name">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label><b>Email:</b></label>
+						</td>
+						<td>
+							<input type="Email" placeholder="Enter your email id">
+						</td>
+					</tr>
+					<tr>
+						<td><label><b>Order:</b></label></td>
+						<td><select>
+							<option value="Margherita">Margherita</option>
+							<option value="Formaggio">Formaggio</option>
+							<option value="Chicken">Chicken</option>
+							<option value="Pineapple'o'clock">Pineapple'o'clock</option>
+              <option value="Meat Town">Meat Town</option>
+							<option value="Parma">Parma</option>
+							<option value="Lasagna">Lasagna</option>
+							<option value="Ravioli">Ravioli</option>
+              <option value="Spaghetti Classica">Spaghetti Classica</option>
+							<option value="Seafood pasta">Seafood pasta</option>
+							<option value="Today's Soup">Today's Soup</option>
+							<option value="Bruschetta">Bruschetta</option>
+              <option value="Garlic bread">Garlic bread</option>
+              <option value="Tomozzarella">Tomozzarella</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>
+							<label><b>Payment type:</b></label>
+						</td>
+            <td><select>
+							<option value="Online">Online</option>
+							<option value="Cod">Cash On Delivery</option>
+					
+						</select></td>
+            </tr>
+            <tr>
+              <td>
+                <label><b>Address:</b></label>
+              </td>
+              <td>
+                <input type="textarea" placeholder="Address...">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label><b>Phone:</b></label>
+              </td>
+              <td>
+                <input type="text" placeholder="Enter your number">
+              </td>
+            </tr>
+					<tr>
+
+						<td><input type="submit"></td>
+					
+					</tr>
+				</table>
+				
+			</form>
+			</div>
+		</div>
+	
+</body>
+</html>
