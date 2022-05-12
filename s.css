@@ -217,6 +217,25 @@ text-align: center;
     width: 120px;
     padding-left: 30px;
 }
+footer{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+  }
+  footer a img{
+    margin-top: 25px;
+    height: 80px;
+    width: 80px;
+    margin-right:90px ;
+  }
+  footer a #facebook{
+    margin-bottom: 7px;
+    margin-right: 0px;
+    height: 72px;
+    width: 72px; 
+  }
 #slider
 {
     width: 100%;
