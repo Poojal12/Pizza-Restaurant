@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Order</title>
+        <link href="shared.css" rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand:wght@500&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fira+Sans:wght@400;600&family=Oswald:wght@600&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+ <style>
+  .body 
+  {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;height: 100%;
+        font-family: 'fira sans';
+    }
+    header{
+  
+  position: relative;
+  background-color: black;
+
+}
+  
+main{
+  background-color: black;
+ text-align: center;
+ font-size: 25px;
+
+}
+.header form{
+   border: 2px solid black; 
+   padding: 20px;
+   margin-top:30px;
+   
+  background-image: url(picture.jpg);
+  image-resolution: 1;
+   background-size: cover;
+   display: inline-block;
+   font-size: 20px;
+   color:black;
+}
+.header form label
+{
+  margin-left: 0px;
+  background-color: #ccc;
+}
+form input{
+    width: 500px;
+    height: 70px;
+    
+}
+
+input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=Email]{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+   
+      input[type=submit] {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 12px 22px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+       
+	 .back
+	 {
+		 border: 5px;
+    background-color: black;
+		 color:rgb(255, 0, 0);
+	 }
+	 .back p a
+	 {
+		 text-decoration: none;
+     font: 30px;
+	 }  
+      
+   
+</style> 
+<body>
+      <header>
+        
+      </header>
+     <main>
+		<div class="header form">
+			<div id="box">
+			<form>
+				<table>
+					<tr>
+						<td>
+							<label><b>Name:</b></label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter your name">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label><b>Email:</b></label>
+						</td>
+						<td>
+							<input type="Email" placeholder="Enter your email id">
+						</td>
+					</tr>
+					<tr>
+						<td><label><b>Order:</b></label></td>
+						<td><select>
+							<option value="Margherita">Margherita</option>
+							<option value="Formaggio">Formaggio</option>
+							<option value="Chicken">Chicken</option>
+							<option value="Pineapple'o'clock">Pineapple'o'clock</option>
+              <option value="Meat Town">Meat Town</option>
+							<option value="Parma">Parma</option>
+							<option value="Lasagna">Lasagna</option>
+							<option value="Ravioli">Ravioli</option>
+              <option value="Spaghetti Classica">Spaghetti Classica</option>
+							<option value="Seafood pasta">Seafood pasta</option>
+							<option value="Today's Soup">Today's Soup</option>
+							<option value="Bruschetta">Bruschetta</option>
+              <option value="Garlic bread">Garlic bread</option>
+              <option value="Tomozzarella">Tomozzarella</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>
+							<label><b>Payment type:</b></label>
+						</td>
+            <td><select>
+							<option value="Online">Online</option>
+							<option value="Cod">Cash On Delivery</option>
+					
+						</select></td>
+            </tr>
+            <tr>
+              <td>
+                <label><b>Address:</b></label>
+              </td>
+              <td>
+                <input type="textarea" placeholder="Address...">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label><b>Phone:</b></label>
+              </td>
+              <td>
+                <input type="text" placeholder="Enter your number">
+              </td>
+            </tr>
+					<tr>
+
+						<td><input type="submit"></td>
+					
+					</tr>
+				</table>
+				
+			</form>
+			</div>
+		</div>
+
+    <div class="back">
+      <p><a href="index.html">Back to Home Page</a><p>
+    </div>
+  </main>
+</body>
+</html>
