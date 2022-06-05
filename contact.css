@@ -1,0 +1,46 @@
+main{
+background-color: black;
+text-align: center;
+}
+.last {
+    background-image: url("pijja.jpg");
+    background-size: cover;
+  background-color: #ffffff;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-family: Oleo-script;
+}
+.last p {
+  font-size: 25px;
+}
+.three p {
+  font-size: 25px;
+}
+.cont 
+{
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 44px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+.first 
+{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.text 
+{
+  width: 1000px;
+  height: 60px;
+  font-size: 20px;
+}
+.txt
+{
+  width: 800px;
+  height: 60px;
+  font-size: 20px;
+  margin-left: 100px;;
+}
